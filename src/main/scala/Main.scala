@@ -23,7 +23,7 @@ object Main  {
 
 class HelloFX extends Application {
 
-  override def start(primaryStage: Stage): Unit = {
+  override def start(primaryStage: Stage): Unit = 
     val root: Parent = FXMLLoader.load(getClass().getResource("sample.fxml"))
     val javaVersion = System.getProperty("java.version")
     val javafxVersion = System.getProperty("javafx.version")
@@ -33,6 +33,6 @@ class HelloFX extends Application {
     //val scene = new Scene(new StackPane(l), 640, 480)
     //primaryStage.setScene(scene)
     primaryStage.show()
-  }
+  
 
 }
